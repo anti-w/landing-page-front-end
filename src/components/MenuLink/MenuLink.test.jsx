@@ -24,11 +24,9 @@ describe('<MenuLink />', () => {
   });
 
   it('should match snapshot', () => {
-    renderTheme(
+    const { container } = renderTheme(
       <MenuLink link="http://localhost">Children</MenuLink>,
     );
-    expect(
-      screen.getByRole('link', { name: 'Children' }),
-    ).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
