@@ -3,9 +3,9 @@ import * as Styled from './styles';
 
 export const Text = ({ children }) => {
   return (
-    <Styled.Container>
-      <>{children}</>
-    </Styled.Container>
+    <Styled.Container
+      dangerouslySetInnerHTML={{ __html: children }}
+    />
   );
 };
 
