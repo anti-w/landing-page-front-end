@@ -86,11 +86,11 @@ exports[`<GridText /> should render with background and match snapshot 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Simple description like a caption or something, resumw
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -102,11 +102,11 @@ exports[`<GridText /> should render with background and match snapshot 1`] = `
             >
               Title one
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non libero tortor. Sed id nibh sed magna euismod ultrices at nec tellus. Aliquam laoreet et arcu sed convallis. Suspendisse iaculis placerat efficitur. Nunc iaculis magna eu justo ornare volutpat. Maecenas. 
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -116,11 +116,11 @@ exports[`<GridText /> should render with background and match snapshot 1`] = `
             >
               Title two
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi mauris. Ut at risus in nibh interdum imperdiet. Sed. 
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -130,11 +130,11 @@ exports[`<GridText /> should render with background and match snapshot 1`] = `
             >
               Title three
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus. 
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -229,11 +229,11 @@ exports[`<GridText /> should render without background and match snapshot 1`] = 
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Simple description like a caption or something, resumw
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -245,11 +245,11 @@ exports[`<GridText /> should render without background and match snapshot 1`] = 
             >
               Title one
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non libero tortor. Sed id nibh sed magna euismod ultrices at nec tellus. Aliquam laoreet et arcu sed convallis. Suspendisse iaculis placerat efficitur. Nunc iaculis magna eu justo ornare volutpat. Maecenas. 
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -259,11 +259,11 @@ exports[`<GridText /> should render without background and match snapshot 1`] = 
             >
               Title two
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec nisi mauris. Ut at risus in nibh interdum imperdiet. Sed. 
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -273,11 +273,11 @@ exports[`<GridText /> should render without background and match snapshot 1`] = 
             >
               Title three
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus. 
-            </p>
+            </div>
           </div>
         </div>
       </div>

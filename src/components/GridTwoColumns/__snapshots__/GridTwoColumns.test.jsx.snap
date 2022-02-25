@@ -94,11 +94,11 @@ exports[`<GridTwoColumns /> should match a snapshot of a grid with two columns 1
           >
             Grid Two Columns
           </h1>
-          <p
+          <div
             class="c6"
           >
             All the world, a lot of people! U are the finnest, I ever know. Tantz tantz tantzz
-          </p>
+          </div>
         </div>
         <div
           class=""

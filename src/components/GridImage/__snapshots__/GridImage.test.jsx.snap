@@ -78,11 +78,11 @@ exports[`<GridImage /> should render with background and match snapshot 1`] = `
         >
           Gallery
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           The images are from unsplash 300 x 300
-        </p>
+        </div>
       </div>
       <div
         class="c6"
@@ -225,11 +225,11 @@ exports[`<GridImage /> should render without background and match snapshot 1`] =
         >
           Gallery
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           The images are from unsplash 300 x 300
-        </p>
+        </div>
       </div>
       <div
         class="c6"
