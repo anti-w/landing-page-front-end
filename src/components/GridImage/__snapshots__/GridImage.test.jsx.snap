@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImage /> should render with background and match snapshot 1`] = `
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 > .c4 {
+  margin-bottom: 6.4rem;
+}
+
+.c6 {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(280px,1fr) );
+  gap: 3.2rem;
+}
+
+.c7 {
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -ms-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
+}
+
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #fff;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h2
+          class="c3"
+        >
+          Gallery
+        </h2>
+        <p
+          class="c4 c5"
+        >
+          The images are from unsplash 300 x 300
+        </p>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title one"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=1"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title two"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=2"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title three"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=3"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title four"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=4"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title five"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=5"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title six"
+            class="c8"
+            src="https://source.unsplash.com/random/256x256r=6"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImage /> should render without background and match snapshot 1`] = `
+.c5 {
+  font-size: 2.4rem;
+}
+
+.c2 > .c4 {
+  margin-bottom: 6.4rem;
+}
+
+.c6 {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(280px,1fr) );
+  gap: 3.2rem;
+}
+
+.c7 {
+  overflow: hidden;
+}
+
+.c8 {
+  width: 100%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -ms-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
+}
+
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #fff;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4.0rem;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <h2
+          class="c3"
+        >
+          Gallery
+        </h2>
+        <p
+          class="c4 c5"
+        >
+          The images are from unsplash 300 x 300
+        </p>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title one"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=1"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title two"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=2"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title three"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=3"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title four"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=4"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title five"
+            class="c8"
+            src="https://source.unsplash.com/random/800x800r=5"
+          />
+        </div>
+        <div
+          class="c7"
+        >
+          <img
+            alt="Title six"
+            class="c8"
+            src="https://source.unsplash.com/random/256x256r=6"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

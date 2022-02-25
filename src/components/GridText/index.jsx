@@ -17,6 +17,7 @@ export const GridText = ({
       <Styled.Container>
         <Heading
           size="huge"
+          as="h2"
           uppercase
           colorDark={!background}
         >
@@ -27,6 +28,7 @@ export const GridText = ({
           {grid.map((el) => (
             <Styled.GridElement key={el.title}>
               <Heading
+                as="h3"
                 colorDark={!background}
                 size="medium"
               >
