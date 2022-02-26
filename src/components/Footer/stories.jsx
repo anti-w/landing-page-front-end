@@ -4,7 +4,7 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: `<p style="text-align: center;">Landing Page developed by <strong>Wendel Dem&eacute;trio</strong>. </p>
+    footerHtml: `<p style="text-align: center;">Landing Page developed by <strong>Wendel Dem&eacute;trio</strong>. </p>
 <p>&nbsp;&nbsp; </p>`,
   },
 };

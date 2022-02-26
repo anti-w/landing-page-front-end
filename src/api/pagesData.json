@@ -1,0 +1,535 @@
+[
+  {
+    "_id": "62123c7996b90225ab987d53",
+    "title": "Droid Landing Page",
+    "slug": "droid-landing-page",
+    "footer_text": "<p>Feito com muito esforço por <strong>Wendel Demétrio</strong>.</p>",
+    "published_at": "2022-02-20T13:33:02.557Z",
+    "sections": [
+      {
+        "__component": "section.section-two-columns",
+        "_id": "62123c7996b90225ab987d54",
+        "title": "a beautiful intro!",
+        "description": "There is a intro about the company and his values. All I need its just a oportunity to start my carrer as a developer and i'm trying a lot. Please continue following the page to see what I can do. ",
+        "metadata": {
+          "background": true,
+          "_id": "62123c7996b90225ab987d55",
+          "section_id": "home",
+          "name": "Home",
+          "__v": 0,
+          "id": "62123c7996b90225ab987d55"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "62123c3796b90225ab987d52",
+          "name": "joy.svg",
+          "alternativeText": "a woman with blue shirts",
+          "caption": "",
+          "hash": "joy_e319d1ed94",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 17.57,
+          "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645362229/joy_e319d1ed94.svg",
+          "provider_metadata": {
+            "public_id": "joy_e319d1ed94",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 822,
+          "height": 695,
+          "related": ["62123c7996b90225ab987d54"],
+          "createdAt": "2022-02-20T13:03:51.358Z",
+          "updatedAt": "2022-02-20T13:04:57.967Z",
+          "__v": 0,
+          "id": "62123c3796b90225ab987d52"
+        },
+        "id": "62123c7996b90225ab987d54"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "621241db96b90225ab987d6e",
+        "title": "Some important infos",
+        "content": "<p>Of course that could be better, so if u wanna send me a feedback please fell free for it! Sometimes we just need some interaction and help to get better and that what i want!</p><p>My english isn't the greatest of Brazil, but I cand handle myself even if I said something wrong, by the way: error its part to be human</p><p>This texts was invented while I'm creating the content in Strapi, its so easy to handle this. Please help me to get a job!</p>",
+        "metadata": {
+          "background": false,
+          "_id": "621241dc96b90225ab987d7a",
+          "name": "Intro",
+          "section_id": "intro",
+          "__v": 0,
+          "id": "621241dc96b90225ab987d7a"
+        },
+        "__v": 1,
+        "id": "621241db96b90225ab987d6e"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "621241db96b90225ab987d6f",
+        "title": "My Grid",
+        "description": "Here a Grid developed to have a text or just images, se bellow",
+        "text_grid": [
+          {
+            "_id": "621241dc96b90225ab987d77",
+            "title": "Everything is awesome",
+            "description": "Lego is awesome, agro is awesome, getting paid by dollar is awesome and a oportunity will be the best!",
+            "__v": 0,
+            "id": "621241dc96b90225ab987d77"
+          },
+          {
+            "_id": "621241dc96b90225ab987d78",
+            "title": "What are you wainting for?",
+            "description": "Just click on it, you need buy it to get a better life. Thrust me, this is the best way to caught girls.",
+            "__v": 0,
+            "id": "621241dc96b90225ab987d78"
+          },
+          {
+            "_id": "621241dc96b90225ab987d79",
+            "title": "Don't be afraid!",
+            "description": "Everything is so confusing, sometimes in my head I'm thinking in portuguese and sometimes I just thinking in the word in his natural language. Maybe someday I will be a native speaker.",
+            "__v": 0,
+            "id": "621241dc96b90225ab987d79"
+          }
+        ],
+        "image_grid": [],
+        "metadata": {
+          "background": true,
+          "_id": "621241dc96b90225ab987d86",
+          "name": "Grid One",
+          "section_id": "grid-one",
+          "__v": 0,
+          "id": "621241dc96b90225ab987d86"
+        },
+        "__v": 2,
+        "id": "621241db96b90225ab987d6f"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "621241db96b90225ab987d70",
+        "title": "Gallery",
+        "description": "Images by unsplash see the links!",
+        "text_grid": [],
+        "image_grid": [
+          {
+            "_id": "621241dc96b90225ab987d71",
+            "__v": 0,
+            "image": {
+              "_id": "6212414f96b90225ab987d68",
+              "name": "http://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "Stang with a lot of cameras and acessories",
+              "caption": "",
+              "hash": "360x360_r_1_481a1854fe",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 26.21,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363533/360x360_r_1_481a1854fe.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_481a1854fe",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_481a1854fe",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 6.33,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/thumbnail_360x360_r_1_481a1854fe.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_481a1854fe",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["621241dc96b90225ab987d71"],
+              "createdAt": "2022-02-20T13:25:35.231Z",
+              "updatedAt": "2022-02-20T13:27:56.117Z",
+              "__v": 0,
+              "id": "6212414f96b90225ab987d68"
+            },
+            "id": "621241dc96b90225ab987d71"
+          },
+          {
+            "_id": "621241dc96b90225ab987d72",
+            "__v": 0,
+            "image": {
+              "_id": "6212415096b90225ab987d6d",
+              "name": "http://source.unsplash.com/random/360x360?r=3",
+              "alternativeText": "surfist getting wave on the sea",
+              "caption": "",
+              "hash": "360x360_r_3_8d318b406b",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 21.14,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/360x360_r_3_8d318b406b.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_3_8d318b406b",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=3",
+                  "hash": "thumbnail_360x360_r_3_8d318b406b",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.93,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363535/thumbnail_360x360_r_3_8d318b406b.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_3_8d318b406b",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["621241dc96b90225ab987d72"],
+              "createdAt": "2022-02-20T13:25:36.282Z",
+              "updatedAt": "2022-02-20T13:27:56.102Z",
+              "__v": 0,
+              "id": "6212415096b90225ab987d6d"
+            },
+            "id": "621241dc96b90225ab987d72"
+          },
+          {
+            "_id": "621241dc96b90225ab987d73",
+            "__v": 0,
+            "image": {
+              "_id": "6212415096b90225ab987d6c",
+              "name": "http://source.unsplash.com/random/360x360?r=5",
+              "alternativeText": "some essencies used in cullinary",
+              "caption": "",
+              "hash": "360x360_r_5_150ccc5f32",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 16.66,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/360x360_r_5_150ccc5f32.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_5_150ccc5f32",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=5",
+                  "hash": "thumbnail_360x360_r_5_150ccc5f32",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 5.48,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363535/thumbnail_360x360_r_5_150ccc5f32.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_5_150ccc5f32",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["621241dc96b90225ab987d73"],
+              "createdAt": "2022-02-20T13:25:36.079Z",
+              "updatedAt": "2022-02-20T13:27:56.104Z",
+              "__v": 0,
+              "id": "6212415096b90225ab987d6c"
+            },
+            "id": "621241dc96b90225ab987d73"
+          },
+          {
+            "_id": "621241dc96b90225ab987d74",
+            "__v": 0,
+            "image": {
+              "_id": "6212414f96b90225ab987d6b",
+              "name": "http://source.unsplash.com/random/360x360?r=6",
+              "alternativeText": "black porche front of a wall sprayed with a woman",
+              "caption": "",
+              "hash": "360x360_r_6_90be5c8090",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 33.16,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/360x360_r_6_90be5c8090.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_6_90be5c8090",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=6",
+                  "hash": "thumbnail_360x360_r_6_90be5c8090",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 8.55,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363535/thumbnail_360x360_r_6_90be5c8090.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_6_90be5c8090",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["621241dc96b90225ab987d74"],
+              "createdAt": "2022-02-20T13:25:35.712Z",
+              "updatedAt": "2022-02-20T13:27:56.105Z",
+              "__v": 0,
+              "id": "6212414f96b90225ab987d6b"
+            },
+            "id": "621241dc96b90225ab987d74"
+          },
+          {
+            "_id": "621241dc96b90225ab987d75",
+            "__v": 0,
+            "image": {
+              "_id": "6212414f96b90225ab987d6a",
+              "name": "http://source.unsplash.com/random/360x360?r=4",
+              "alternativeText": "museum and elegant building",
+              "caption": "",
+              "hash": "360x360_r_4_2984264d07",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 26.73,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363533/360x360_r_4_2984264d07.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_4_2984264d07",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=4",
+                  "hash": "thumbnail_360x360_r_4_2984264d07",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 7.03,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/thumbnail_360x360_r_4_2984264d07.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_4_2984264d07",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["621241dc96b90225ab987d75"],
+              "createdAt": "2022-02-20T13:25:35.287Z",
+              "updatedAt": "2022-02-20T13:27:56.100Z",
+              "__v": 0,
+              "id": "6212414f96b90225ab987d6a"
+            },
+            "id": "621241dc96b90225ab987d75"
+          },
+          {
+            "_id": "621241dc96b90225ab987d76",
+            "__v": 0,
+            "image": {
+              "_id": "6212414f96b90225ab987d69",
+              "name": "http://source.unsplash.com/random/360x360?r=2",
+              "alternativeText": "guitar and amplifier",
+              "caption": "",
+              "hash": "360x360_r_2_321a416f3d",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 16.54,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363533/360x360_r_2_321a416f3d.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_2_321a416f3d",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_http://source.unsplash.com/random/360x360?r=2",
+                  "hash": "thumbnail_360x360_r_2_321a416f3d",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 5.43,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/thumbnail_360x360_r_2_321a416f3d.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_2_321a416f3d",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["621241dc96b90225ab987d76"],
+              "createdAt": "2022-02-20T13:25:35.266Z",
+              "updatedAt": "2022-02-20T13:27:56.107Z",
+              "__v": 0,
+              "id": "6212414f96b90225ab987d69"
+            },
+            "id": "621241dc96b90225ab987d76"
+          }
+        ],
+        "metadata": {
+          "background": false,
+          "_id": "621241dc96b90225ab987d8e",
+          "name": "Gallery",
+          "section_id": "gallery",
+          "__v": 0,
+          "id": "621241dc96b90225ab987d8e"
+        },
+        "__v": 2,
+        "id": "621241db96b90225ab987d70"
+      },
+      {
+        "__component": "section.section-two-columns",
+        "_id": "6212430596b90225ab987d9c",
+        "title": "Contact Me",
+        "description": "Please send me a invitation on LinkedIn or maybe contact mw via e-mail. Feel free to contact in any hour, I will be answering when get a free time.",
+        "metadata": {
+          "background": false,
+          "_id": "6212430596b90225ab987d9d",
+          "name": "Contact",
+          "section_id": "contact",
+          "__v": 0,
+          "id": "6212430596b90225ab987d9d"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "621242e796b90225ab987d9b",
+          "name": "cutecat.svg",
+          "alternativeText": "cute cat",
+          "caption": "",
+          "hash": "cutecat_85e48cec12",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 8.83,
+          "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645363941/cutecat_85e48cec12.svg",
+          "provider_metadata": {
+            "public_id": "cutecat_85e48cec12",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 785,
+          "height": 261,
+          "related": ["6212430596b90225ab987d9c"],
+          "createdAt": "2022-02-20T13:32:23.146Z",
+          "updatedAt": "2022-02-20T13:32:53.269Z",
+          "__v": 0,
+          "id": "621242e796b90225ab987d9b"
+        },
+        "id": "6212430596b90225ab987d9c"
+      }
+    ],
+    "menu": {
+      "open_in_new_tab": false,
+      "_id": "62123c7a96b90225ab987d59",
+      "logo_text": "Landing Page Droid",
+      "logo_link": "#home",
+      "menu": [
+        {
+          "open_in_new_tab": false,
+          "_id": "62123c7a96b90225ab987d5a",
+          "link_text": "Intro",
+          "url": "#intro",
+          "__v": 0,
+          "id": "62123c7a96b90225ab987d5a"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "62123c7a96b90225ab987d5b",
+          "link_text": "Grid One",
+          "url": "#grid-one",
+          "__v": 0,
+          "id": "62123c7a96b90225ab987d5b"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "62123c7a96b90225ab987d5c",
+          "link_text": "Gallery",
+          "url": "#gallery",
+          "__v": 0,
+          "id": "62123c7a96b90225ab987d5c"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "62123c7a96b90225ab987d5f",
+          "link_text": "Contact",
+          "url": "#contact",
+          "__v": 0,
+          "id": "62123c7a96b90225ab987d5f"
+        }
+      ],
+      "__v": 1,
+      "logo": {
+        "_id": "621239884209811fade4bdc9",
+        "name": "logo.png",
+        "alternativeText": "landing-page logo android bot",
+        "caption": "",
+        "hash": "logo_dbac8a1cef",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 12.81,
+        "width": 512,
+        "height": 512,
+        "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645361541/logo_dbac8a1cef.png",
+        "provider_metadata": {
+          "public_id": "logo_dbac8a1cef",
+          "resource_type": "image"
+        },
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_logo.png",
+            "hash": "thumbnail_logo_dbac8a1cef",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 156,
+            "height": 156,
+            "size": 8.2,
+            "path": null,
+            "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645361542/thumbnail_logo_dbac8a1cef.png",
+            "provider_metadata": {
+              "public_id": "thumbnail_logo_dbac8a1cef",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "name": "small_logo.png",
+            "hash": "small_logo_dbac8a1cef",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 500,
+            "size": 33.81,
+            "path": null,
+            "url": "https://res.cloudinary.com/dscztnlqq/image/upload/v1645361543/small_logo_dbac8a1cef.png",
+            "provider_metadata": {
+              "public_id": "small_logo_dbac8a1cef",
+              "resource_type": "image"
+            }
+          }
+        },
+        "provider": "cloudinary",
+        "related": ["62123c7a96b90225ab987d59"],
+        "createdAt": "2022-02-20T12:52:24.082Z",
+        "updatedAt": "2022-02-20T13:04:58.312Z",
+        "__v": 0,
+        "id": "621239884209811fade4bdc9"
+      },
+      "id": "62123c7a96b90225ab987d59"
+    },
+    "createdAt": "2022-02-20T13:04:57.763Z",
+    "updatedAt": "2022-02-20T13:33:02.884Z",
+    "__v": 2,
+    "id": "62123c7996b90225ab987d53"
+  }
+]
