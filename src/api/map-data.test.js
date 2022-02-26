@@ -21,7 +21,5 @@ describe('map-data.js ', () => {
     expect(pagesData.footerHtml).toBe('<p>Hey!@</p>');
     expect(pagesData.slug).toBe('slug');
     expect(pagesData.title).toBe('title');
-    expect(pagesData.sections).toEqual([1, 2, 3]);
-    expect(pagesData.menu).toEqual({ a: 'b' });
   });
 });
