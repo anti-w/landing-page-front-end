@@ -8,7 +8,7 @@ exports[`<GridContent /> should match snapshot 1`] = `
 }
 
 .c4 {
-  margin: 3.2rem 0;
+  margin: 6.4rem 0;
 }
 
 .c3 {
@@ -21,6 +21,7 @@ exports[`<GridContent /> should match snapshot 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -175,7 +176,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 }
 
 .c4 {
-  margin: 3.2rem 0;
+  margin: 6.4rem 0;
 }
 
 .c3 {
@@ -188,6 +189,7 @@ exports[`<GridContent /> should render grid content 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {

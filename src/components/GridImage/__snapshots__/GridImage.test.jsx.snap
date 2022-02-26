@@ -41,6 +41,7 @@ exports[`<GridImage /> should render with background and match snapshot 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -55,6 +56,12 @@ exports[`<GridImage /> should render with background and match snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width:768px) {
@@ -188,6 +195,7 @@ exports[`<GridImage /> should render without background and match snapshot 1`] =
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
@@ -202,6 +210,12 @@ exports[`<GridImage /> should render without background and match snapshot 1`] =
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width:768px) {

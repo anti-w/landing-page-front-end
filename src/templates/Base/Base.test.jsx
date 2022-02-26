@@ -1,10 +1,12 @@
-import { screen } from '@testing-library/react';
 import { Base } from '.';
 import { renderTheme } from '../../styles/render-theme';
+import { mockBase } from './mock';
 
 describe('<Base />', () => {
-  it('should be tested', () => {
-    renderTheme(<Base>Chlidren</Base>);
-    expect(screen.getByRole('div')).toBeInTheDocument();
+  it('should render a base component', () => {
+    const { container } = renderTheme(
+      <Base {...mockBase} />,
+    );
+    expect(container).toMatchSnapshot();
   });
 });
