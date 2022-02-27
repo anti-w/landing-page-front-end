@@ -6,10 +6,48 @@ import {
   mapTextGrid,
 } from './map-sections';
 
+import pagesMock from './pagesData.json';
+
 describe('map-sections', () => {
   it('should render default data if no data', () => {
     const data = mapSections();
     expect(data).toEqual([]);
+  });
+
+  it('should render sections with correct data ', () => {
+    const data = mapSections(pagesMock[0].sections);
+    expect(data[0].component).toBe(
+      'section.section-two-columns',
+    );
+  });
+
+  it('should render sections with invalid data ', () => {
+    const withNoTextOrImage = mapSections([
+      {
+        __component: 'section.section-grid',
+      },
+    ]);
+
+    const withNoComponent = mapSections([{}]);
+
+    expect(withNoTextOrImage).toEqual([
+      { __component: 'section.section-grid' },
+    ]);
+    expect(withNoComponent).toEqual([{}]);
+  });
+
+  it('should test section grid with no image grid or text grid passed', () => {
+    const withNoTextOrImage = mapSections([
+      {
+        __component: 'section.section-grid',
+        text_grid: [{}],
+      },
+      {
+        __component: 'section.section-grid',
+        image_grid: [{}],
+      },
+    ]);
+    expect(withNoTextOrImage.length).toBe(2);
   });
 
   it('should map section two columns even if data is empty', () => {
