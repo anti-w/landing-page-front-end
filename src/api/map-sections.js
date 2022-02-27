@@ -38,8 +38,24 @@ export const mapSectionTwoColumns = (section = {}) => {
   };
 };
 
-export const mapSectionContent = (section) => {
-  return section;
+export const mapSectionContent = (section = {}) => {
+  const {
+    __component: component = '',
+    title = '',
+    content: html = '',
+    metadata: {
+      background = false,
+      section_id: sectionId = '',
+    } = false,
+  } = section;
+
+  return {
+    component,
+    title,
+    html,
+    background,
+    sectionId,
+  };
 };
 
 export const mapSectionGrid = (section) => {

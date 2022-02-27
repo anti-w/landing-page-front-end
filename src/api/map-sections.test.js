@@ -23,7 +23,6 @@ describe('map-sections', () => {
   it('should map section two columns with data', () => {
     const data = mapSectionTwoColumns({
       __component: 'section.section-two-columns',
-      _id: '62123c7996b90225ab987d54',
       title: 'a beautiful intro!',
       description: 'wow!',
       metadata: {
@@ -32,14 +31,11 @@ describe('map-sections', () => {
         section_id: 'home',
         name: 'Home',
       },
-      __v: 1,
       image: {
-        _id: '62123c3796b90225ab987d52',
         name: 'joy.svg',
         alternativeText: 'a woman with blue shirts',
         url: 'image.svg',
       },
-      id: '62123c7996b90225ab987d54',
     });
     expect(data.background).toBe(true);
     expect(data.component).toBe(
@@ -53,5 +49,33 @@ describe('map-sections', () => {
 
   it(' should map section content', () => {
     const section = mapSectionContent();
+
+    expect(section.background).toBe(false);
+    expect(section.component).toBe('');
+    expect(section.html).toBe('');
+    expect(section.sectionId).toBe('');
+    expect(section.title).toBe('');
+  });
+
+  it(' should map section content with data coming from API', () => {
+    const section = mapSectionContent({
+      __component: 'section.section-content',
+      _id: '621241db96b90225ab987d6e',
+      title: 'Some important infos',
+      content: '<p> Hey!</p>',
+      metadata: {
+        background: false,
+        _id: '621241dc96b90225ab987d7a',
+        section_id: 'intro',
+      },
+    });
+
+    expect(section.background).toBe(false);
+    expect(section.component).toBe(
+      'section.section-content',
+    );
+    expect(section.html).toBe('<p> Hey!</p>');
+    expect(section.sectionId).toBe('intro');
+    expect(section.title).toBe('Some important infos');
   });
 });
