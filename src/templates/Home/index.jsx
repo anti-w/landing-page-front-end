@@ -10,14 +10,23 @@ import { GridImage } from '../../components/GridImage';
 import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
+import { useLocation } from 'react-router-dom';
 
 function Home() {
   const [data, setData] = useState([]);
+  const location = useLocation();
   useEffect(() => {
+    const pathname = location.pathname.replace(
+      /[^a-z0-9-_]/gi,
+      '',
+    );
+    const slug = pathname ? pathname : 'droid-landing-page';
+
     const load = async () => {
       try {
         const data = await fetch(
-          'http://localhost:1337/pages/?slug=droid-landing-page',
+          'https://strapi-landing-page-zero-one.herokuapp.com/pages/?slug=' +
+            slug,
         );
         const json = await data.json();
         const filteredData = mapData(json);
@@ -29,7 +38,7 @@ function Home() {
     };
 
     load();
-  }, []);
+  }, [location]);
 
   if (data === undefined) return <PageNotFound />;
 

@@ -77,6 +77,7 @@ export const Button = styled.div`
     height: 4rem;
     background: ${theme.colors.primaryColor};
     color: ${theme.colors.white};
+    border-radius: 50%;
     border: none;
     display: none;
     pointer-events: ${visible ? 'none' : 'all'};
