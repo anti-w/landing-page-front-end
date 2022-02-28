@@ -4,9 +4,10 @@ import { Title } from '../Heading/styles';
 export const Container = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: ${theme.spacings.large};
+
 
     @media ${theme.media.lteMedium} {
       grid-template-columns: 1fr;
@@ -33,11 +34,7 @@ export const ImgContainer = styled.div`
 
 export const Image = styled.img`
   ${({ theme }) => css`
-    max-width: 72vh;
-    max-height: 72vh;
-    @media ${theme.media.lteMedium} {
-      max-width: 55vh;
-      max-height: 55vh;
-    }
+    width: 80%;
+    height: 80%;
   `}
 `;
