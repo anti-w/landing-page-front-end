@@ -11,9 +11,13 @@ export const GridText = ({
   description,
   grid,
   background = false,
+  sectionId = '',
 }) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground
+      background={background}
+      sectionId={sectionId}
+    >
       <Styled.Container>
         <Heading
           size="huge"
@@ -47,6 +51,7 @@ GridText.propTypes = {
   title: P.string.isRequired,
   description: P.string.isRequired,
   background: P.bool,
+  sectionId: P.string,
   grid: P.arrayOf(
     P.shape({
       title: P.string.isRequired,
