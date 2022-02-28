@@ -145,34 +145,13 @@ describe('map-sections', () => {
           description:
             'Lego is awesome, agro is awesome, getting paid by dollar is awesome and a oportunity will be the best!',
         },
-        {
-          _id: '621241dc96b90225ab987d78',
-          title: 'What are you wainting for?',
-          description:
-            'Just click on it, you need buy it to get a better life. Thrust me, this is the best way to caught girls.',
-          __v: 0,
-          id: '621241dc96b90225ab987d78',
-        },
-        {
-          _id: '621241dc96b90225ab987d79',
-          title: "Don't be afraid!",
-          description:
-            "Everything is so confusing, sometimes in my head I'm thinking in portuguese and sometimes I just thinking in the word in his natural language. Maybe someday I will be a native speaker.",
-          __v: 0,
-          id: '621241dc96b90225ab987d79',
-        },
       ],
       image_grid: [],
       metadata: {
         background: true,
-        _id: '621241dc96b90225ab987d86',
         name: 'Grid One',
         section_id: 'grid-one',
-        __v: 0,
-        id: '621241dc96b90225ab987d86',
       },
-      __v: 2,
-      id: '621241db96b90225ab987d6f',
     });
 
     expect(section.background).toBe(true);
@@ -225,35 +204,21 @@ describe('map-sections', () => {
           },
         },
         {
-          _id: '621241dc96b90225ab987d72',
-          __v: 0,
           image: {
             _id: '6212415096b90225ab987d6d',
             name: 'http://source.unsplash.com/random/360x360?r=3',
             alternativeText:
               'surfist getting wave on the sea',
-            size: 21.14,
             width: 360,
             height: 360,
             url: 'https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/360x360_r_3_8d318b406b.jpg',
-
-            id: '6212415096b90225ab987d6d',
           },
-          id: '621241dc96b90225ab987d72',
         },
         {
-          _id: '621241dc96b90225ab987d73',
-          __v: 0,
           image: {
-            _id: '6212415096b90225ab987d6c',
             name: 'http://source.unsplash.com/random/360x360?r=5',
             alternativeText:
               'some essencies used in cullinary',
-            caption: '',
-            hash: '360x360_r_5_150ccc5f32',
-            ext: '',
-            mime: 'image/jpeg',
-            size: 16.66,
             width: 360,
             height: 360,
             url: 'https://res.cloudinary.com/dscztnlqq/image/upload/v1645363534/360x360_r_5_150ccc5f32.jpg',
@@ -283,41 +248,12 @@ describe('map-sections', () => {
           },
           id: '621241dc96b90225ab987d75',
         },
-        {
-          _id: '621241dc96b90225ab987d76',
-          __v: 0,
-          image: {
-            _id: '6212414f96b90225ab987d69',
-            name: 'http://source.unsplash.com/random/360x360?r=2',
-            alternativeText: 'guitar and amplifier',
-            caption: '',
-            hash: '360x360_r_2_321a416f3d',
-            ext: '',
-            mime: 'image/jpeg',
-            size: 16.54,
-            width: 360,
-            height: 360,
-            url: 'https://res.cloudinary.com/dscztnlqq/image/upload/v1645363533/360x360_r_2_321a416f3d.jpg',
-            provider: 'cloudinary',
-            related: ['621241dc96b90225ab987d76'],
-            createdAt: '2022-02-20T13:25:35.266Z',
-            updatedAt: '2022-02-20T13:27:56.107Z',
-            __v: 0,
-            id: '6212414f96b90225ab987d69',
-          },
-          id: '621241dc96b90225ab987d76',
-        },
       ],
       metadata: {
         background: false,
-        _id: '621241dc96b90225ab987d8e',
         name: 'Gallery',
         section_id: 'gallery',
-        __v: 0,
-        id: '621241dc96b90225ab987d8e',
       },
-      __v: 2,
-      id: '621241db96b90225ab987d70',
     });
 
     expect(section.background).toBe(false);
