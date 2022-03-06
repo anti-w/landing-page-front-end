@@ -6,7 +6,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    gap: ${theme.spacings.large};
+    gap: ${theme.spacings.xhuge};
 
 
     @media ${theme.media.lteMedium} {
@@ -34,7 +34,7 @@ export const ImgContainer = styled.div`
 
 export const Image = styled.img`
   ${({ theme }) => css`
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
   `}
 `;

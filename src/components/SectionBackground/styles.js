@@ -14,5 +14,9 @@ export const Container = styled.div`
     min-height: 100vh;
     display: flex;
     align-items: center;
+
+    @media ${theme.media.lteMedium} {
+      padding: ${theme.spacings.small};
+    }
   `}
 `;
